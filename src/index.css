@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +15,87 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.map-container {
+  width: 100%;
+  height: 60vh;
+}
+@media (min-width: 768px) {
+  .map-container {
+    width: 100%;
+    height: 60vh;
+    border-radius: 30px;
+  }
+
+  .card0card {
+    height: 500px;
+  }
+  .card1card {
+    height: 550px;
+  
+  }
+  .card2card {
+    height: 620px
+  }
+
+  .card0 {
+    transform: translateY(20rem);
+  }
+  .card1 {
+    transform: translateY(23.5rem);
+
+  }
+  .card2 {
+    transform: translateY(28.7rem);
+
+  }
+  
+}
+.card0card {
+  height: 500px;
+}
+.card1card {
+  height: 550px;
+
+}
+.card2card {
+  height: 620px
+}
+
+
+
+.card0card:hover .imgBx, .card1card:hover .imgBx , .card2card:hover .imgBx {
+  width: 170px;
+  height: 170px;
+}
+
+.card0card:hover .content .data h3, .card1card:hover .content .data h3, .card2card:hover .content .data h3  {
+  display: flex;
+}
+
+.card0card:hover .content .details , .card1card:hover .content .details, .card2card:hover .content .details  {
+  transform: translateY(0px);
+}
+.card0card:hover {
+  height: 500px;
+}
+.card1card:hover {
+  height: 560px;
+}
+.card2card:hover {
+  height: 640px;
+}
+
+.slide { 
+  opacity: 0;
+  transition-duration: 500ms ease;
+}
+.slide-active { 
+  opacity: 1;
+  transition-duration: 500ms;
+  transform: scale(1.04);
+}
+
+
+
+
