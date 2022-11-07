@@ -1,13 +1,13 @@
 import React from 'react'
 import { useMemo } from 'react';
 import { GoogleMap, useLoadScript, MarkerF } from '@react-google-maps/api';
-import { config } from '../../config/config';
+import { config } from '../config/config';
 
 export default function HomeMap() {
     const { isLoaded } = useLoadScript({
         googleMapsApiKey: config.map,
     });
-
+    console.log(config)
     if( !isLoaded ) return <div>Loading...</div>
     return <Map />
     
