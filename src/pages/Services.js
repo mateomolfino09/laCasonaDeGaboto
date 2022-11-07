@@ -13,14 +13,25 @@ const Services = () => {
   
 
   <section className='w-screen max-h-full overflow-hidden mt-24'>
+  <div className='sm:w-1/2 w-full px-6 ms:h-auto h-auto flex flex-wrap  flex-row justify-start mt-0 sm:mb-24 mb-12 ml-auto mr-auto'>
+          <h3 className="sm:text-4xl text-4xl font-normal mb-12" >Nuestro hogar incluye
+          </h3>
+          <h3 className="sm:text-2xl text-2xl font-thin mb-4" >El Hall principal con sillones decorado con plantas para el descanso de los estudiantes calefaccionado con aire acondicionado de última generación y de alta gama.
+
+
+
+          </h3>
+          <h3 className="sm:text-2xl text-2xl font-thin mb-4">Servicio de limpieza en áreas comunes y personal encargado de la residencia. </h3>
+          <h3 className="sm:text-2xl text-2xl font-thin mb-4">Agua caliente las 24 hs y calefacción en todas las habitaciones</h3> <br /> <br />
+        </div>
     <div className='w-full px-4 ms:h-auto h-auto flex flex-wrap bg-zinc-100 flex-row justify-center pb-4 sm:pb-0'>
       <div className='sm:w-[30%] w-full h-auto sm:mt-12 flex flex-col mt-10 items-start'>
       
-      <h3 className="sm:text-4xl text-4xl font-semibold mb-12 flex" ><BsFlower1 />   <p className='sm:mx-2 flex align-middle '>Nuestro hogar incluye </p><BsFlower1 />   
+      <h3 className="sm:text-4xl text-4xl font-normal mb-12 flex" >   <p className='sm:mx-2 flex align-middle '>Contamos con: </p>   
       </h3>
 
      
-      <h3 className="sm:text-2xl text-2xl font-small mb-4" >
+      <h3 className="sm:text-2xl text-2xl font-thin mb-4" >
       • Cocina equipada con hornos, Microondas y Cocinas a Gas <br/>
       • Cuartos con estufa  <br/>
       • Aire acondicionado en espacios comunes <br/>

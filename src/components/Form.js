@@ -4,7 +4,7 @@ const Form = () => {
   return (
     <div className='mt-8 mb-8 sm:mx-auto sm:w-full p-4 sm:p-0 '>
       <h2 className='text-center text-5xl my-12 font-normal'>Contáctate con Nosotros</h2>
-      <form action="#" className='mb-0 mx-auto space-y-2 border-2 sm:max-w-md shadow-xl rounded-xl p-6 bg-white'>
+      <form action="https://formsubmit.co/birriel1998@gmail.com" method='POST' className='mb-0 mx-auto space-y-2 border-2 sm:max-w-md shadow-xl rounded-xl p-6 bg-white'>
         <label className='block text-sm font-medium text-gray-600'>Nombre:</label>
         <div className='mt-1'>
         <input type="text" required name='nombre' autoComplete='nombre' className='w-full border border-gray-300 px-3 py-2 rounded-lg shadow-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary '

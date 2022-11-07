@@ -8,6 +8,7 @@ import Form from './Form';
 import Slider from './Slider';
 import ImagePopUp from './ImagePopUp';
 import ScrollToTop from './ScrollToTop';
+import TablePrecios from "./TablePrecios";
 
 
 
@@ -23,5 +24,6 @@ export {
     HomeMap,
     ImagePopUp,
     ScrollToTop,
+    TablePrecios,
     Footer
 }

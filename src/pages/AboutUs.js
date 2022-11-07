@@ -43,30 +43,44 @@ const AboutUs = () => {
           
             <div className='text-black flex flex-col justify-center text-left'>
               <div className='flex'>
-                <h2 className="sm:text-4xl text-2xl font-semibold mb-8 "> 
+                <h2 className="sm:text-6xl text-4xl font-semibold mb-12 "> 
                 Visión 
                 </h2>
-                <div className='ml-3 sm:text-4xl text-2xl font-semibold mb-8' >
+                <div className='ml-3 sm:text-6xl text-4xl font-semibold mb-8' >
                 <BsBullseye />
                 </div>
                 
 
               </div>
             
-                    <h3 className="sm:text-4xl text-2xl font-thin mb-16" >
-                    ¡Queremos que te sientas como en casa! Contamos con espacios amplios y cómodos para que tengas tus primeras experiencias en la capital como si estuvieras en casa.
+                    <h3 className="mb-16" >
+                    <h4 className='sm:text-4xl text-2xl font-normal mb-4'>Priorizamos el estudio.</h4>
+                    <p className='sm:text-2xl text-xl font-thin mb-12'>Cada dormitorio cuenta con escritorios y sillas para estudiar en la habitación. <br/>
+Contamos además con 4 salas de estudio, equipadas con pizarra, mesas y sillas e Internet libre de alta potencia con repetidores en toda la casa.</p>
+
+<h4 className='sm:text-4xl text-2xl font-normal mb-4'>Espacios comunes</h4>
+                    <p className='sm:text-2xl text-xl font-thin mb-12'>Tenemos 2 cocinas equipadas con 6 hornos (microondas y electricos), 6 freezers, una cocina de 6 hornallas y otra de 4. <br/>
+Contamos con 4 baños de uso común y 3 en habitaciones de uso privado. 
+2 comedores con televisión por cable</p>
+
+<h4 className='sm:text-4xl text-2xl font-normal mb-4'>Seguridad</h4>
+                    <p className='sm:text-2xl text-xl font-thin mb-12'>Circuito cerrado de TV en zonas comunes
+Habitación de bomberos. <br/>
+Cada habitacion tiene cerradura y llave para cada estudiante.</p>
+
+
                                                                 
                     </h3>
                     <div className='flex'> 
-                    <h2 className="sm:text-4xl text-2xl font-semibold mb-8 "> 
+                    <h2 className="sm:text-6xl text-4xl font-semibold mb-8 "> 
                 Nuestro Espacio 
                 </h2>
-                <div className='ml-3 sm:text-4xl text-2xl font-semibold mb-8' >
+                <div className='ml-3 sm:text-6xl text-4xl font-semibold mb-8' >
                 <HiOutlineHome />
                 </div>
                     </div>
                     
-                    <h3 className="sm:text-4xl text-2xl font-thin" >• Fundación: 2006<br/>
+                    <h3 className="sm:text-2xl text-4xl font-thin" >• Fundación: 2006<br/>
                     • Dimensión: 700m² dos plantas
                       <br/>
                     • Dirección: Gaboto 1164, 11200 Montevideo, Departamento de Montevideo, Montevideo, Uruguay, 11200 <br/> <br/>
@@ -86,10 +100,10 @@ const AboutUs = () => {
         <div className='w-full h-auto flex flex-wrap bg-zinc-100 flex-row justify-center'> 
           <div className='sm:w-2/5 w-full h-auto sm:mr-12 sm:mt-48 flex mt-10 items-start'>
               <div className='text-black flex flex-col justify-center text-start pl-4 sm:pl-0'>
-                <h3 className="sm:text-4xl text-xl mb-8 font-normal" >Contamos con habitaciones compartidas para 2, 3 y 4 personas y se puede considerar individualizar una de las habitaciones de 2 en caso de ser requerido.
+                <h3 className="sm:text-3xl text-xl mb-8 font-thin" >Contamos con habitaciones compartidas para 2, 3 y 4 personas y se puede considerar individualizar una de las habitaciones de 2 en caso de ser requerido.
                 </h3>
-                <h3 className="sm:text-4xl text-xl mb-8 font-normal" >Todos cuentan con luz natural y lockers con llave</h3>
-                <h3 className="sm:text-4xl text-xl font-normal">Algunos de ellas cuentan con baño privado.</h3>
+                <h3 className="sm:text-3xl text-xl mb-8 font-thin" >Todos cuentan con luz natural y lockers con llave</h3>
+                <h3 className="sm:text-3xl text-xl font-thin">Algunos de ellas cuentan con baño privado.</h3>
               </div>
           </div>
           <div className='sm:w-2/5 w-full sm:h-auto sm:mt-12 sm:ml-12 h-auto flex justify-center sm:block mt-16'>

@@ -1,6 +1,7 @@
 import React from 'react'
-import { Title } from '../components'
+import { Title, TablePrecios } from '../components'
 import pasillo from '../images/pasillo2.png';
+
 
 const Prices = () => {
   return (
@@ -9,7 +10,7 @@ const Prices = () => {
         title="Precios"
         img={pasillo}
         />
-        
+        <TablePrecios />
         
     </div>
   )

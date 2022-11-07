@@ -290,3 +290,107 @@ export const SliderDataNormativa = [
     alt: 'reglamento3'
   },
 ]
+
+export const suites = [
+  {
+    id: 1,
+    suite: 'Aves del Paraiso',
+    capacidad: '2',
+    bañopriv: 'Si',
+    vista: 'Hall',
+    escritorios: '3',
+    precio: '14500'
+  },
+  {
+    id: 2,
+    suite: 'Las Gaviotas',
+    capacidad: '2',
+    bañopriv: 'Si',
+    vista: 'Hall',
+    escritorios: '3',
+    precio: '14500'
+  },
+  {
+    id: 3,
+    suite: 'Las Grullas',
+    capacidad: '2',
+    bañopriv: 'No',
+    vista: 'Jardín',
+    escritorios: 'Sala de estudios incluida',
+    precio: '14500'
+  },
+  {
+    id: 4,
+    suite: 'Los Cuervos',
+    capacidad: '1',
+    bañopriv: 'No',
+    vista: 'Hall',
+    escritorios: '2',
+    precio: '14000'
+  },
+  {
+    id: 5,
+    suite: 'Las Golondrinas	',
+    capacidad: '1',
+    bañopriv: 'No',
+    vista: 'Jardín',
+    escritorios: '2',
+    precio: '14000'
+  },
+  {
+    id: 6,
+    suite: 'Los Colibri',
+    capacidad: '1',
+    bañopriv: 'No',
+    vista: 'Jardín',
+    escritorios: '2',
+    precio: '14000'
+  },
+  {
+    id: 7,
+    suite: 'The Flemish',
+    capacidad: '2',
+    bañopriv: 'No',
+    vista: 'Jardín',
+    escritorios: '2',
+    precio: '13500'
+  },
+  {
+    id: 8,
+    suite: 'Los Aguiluchos',
+    capacidad: '2',
+    bañopriv: 'No',
+    vista: 'Galeria',
+    escritorios: '2',
+    precio: '12500'
+  },
+  {
+    id: 9,
+    suite: 'Las Alondras',
+    capacidad: '2',
+    bañopriv: 'No',
+    vista: 'Jardín',
+    escritorios: '2',
+    precio: '12500'
+  },
+  {
+    id: 10,
+    suite: 'Los Teros',
+    capacidad: '2',
+    bañopriv: 'No',
+    vista: 'Galeria',
+    escritorios: '2',
+    precio: '11000'
+  },
+  {
+    id: 11,
+    suite: 'The Cardenals',
+    capacidad: '3',
+    bañopriv: 'No',
+    vista: 'Jardín',
+    escritorios: '3',
+    precio: '10500'
+  }
+  
+  
+]
