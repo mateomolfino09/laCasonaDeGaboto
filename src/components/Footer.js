@@ -32,6 +32,14 @@ const Footer = () => {
                         </p> 
                         <p className='flex items-center text-xl'> 
                         <AiFillPhone />
+                        +598 2419 8512    
+                        </p>
+                        <p className='flex items-center text-xl'> 
+                        <AiFillPhone />
+                        +598 99 924 747   
+                        </p>
+                        <p className='flex items-center text-xl'> 
+                        <AiFillPhone />
                         +598 99 159 328   
                         </p> 
                         </div>

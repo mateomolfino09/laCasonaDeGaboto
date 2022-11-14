@@ -60,12 +60,11 @@ Contamos además con 4 salas de estudio, equipadas con pizarra, mesas y sillas e
 
 <h4 className='sm:text-4xl text-2xl font-normal mb-4'>Espacios comunes</h4>
                     <p className='sm:text-2xl text-xl font-thin mb-12'>Tenemos 2 cocinas equipadas con 6 hornos (microondas y electricos), 6 freezers, una cocina de 6 hornallas y otra de 4. <br/>
-Contamos con 4 baños de uso común y 3 en habitaciones de uso privado. 
-2 comedores con televisión por cable</p>
+                    Contamos con 4 baños de uso común y con 3 habitaciones con baños privados.</p>
 
 <h4 className='sm:text-4xl text-2xl font-normal mb-4'>Seguridad</h4>
                     <p className='sm:text-2xl text-xl font-thin mb-12'>Circuito cerrado de TV en zonas comunes
-Habitación de bomberos. <br/>
+                    Habilitación  de bomberos. <br/>
 Cada habitacion tiene cerradura y llave para cada estudiante.</p>
 
 
